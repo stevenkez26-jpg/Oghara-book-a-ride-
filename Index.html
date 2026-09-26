@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oghara Book a Ride</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <strong>Oghara Book a Ride</strong>
+  <a href="#book">Book a Ride</a>
+</header>
+
+<main class="hero">
+  <section>
+    <p class="muted">Safe rides around Oghara</p>
+
+    <h1>Move around Oghara with ease.</h1>
+
+    <p>
+      Book a local ride quickly and conveniently.
+      Connect with verified drivers in Oghara and get where
+      you need to go.
+    </p>
+
+    <a class="btn" href="#book">Book a Ride</a>
+    <a class="btn alt" href="#driver">Become a Driver</a>
+  </section>
+
+  <section class="card" id="book">
+    <h2>Book Your Ride</h2>
+
+    <form>
+      <label>
+        Pickup location
+        <input
+          type="text"
+          name="pickup"
+          placeholder="Where should we pick you up?"
+          required
+        >
+      </label>
+
+      <label>
+        Destination
+        <input
+          type="text"
+          name="destination"
+          placeholder="Where are you going?"
+          required
+        >
+      </label>
+
+      <label>
+        Ride type
+        <select name="ride">
+          <option value="car">Car</option>
+          <option value="tricycle">Tricycle</option>
+          <option value="bike">Motorbike</option>
+        </select>
+      </label>
+
+      <button class="btn" type="submit">Request Ride</button>
+    </form>
+
+    <p class="muted">
+      Driver verification and payment features will be connected
+      as the platform develops.
+    </p>
+  </section>
+</main>
+
+<section class="container" id="driver">
+  <h2>For Drivers</h2>
+
+  <div class="grid">
+    <div class="stat">
+      <strong>✓</strong>
+      <span>Driver verification</span>
+    </div>
+
+    <div class="stat">
+      <strong>₦</strong>
+      <span>Local ride opportunities</span>
+    </div>
+
+    <div class="stat">
+      <strong>24/7</strong>
+      <span>Ride requests</span>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
