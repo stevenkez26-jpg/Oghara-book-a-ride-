@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oghara Book a Ride</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #222;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 22px 18px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 15px;
+      color: #ddd;
+    }
+
+    .hero {
+      padding: 45px 20px;
+      text-align: center;
+      background: white;
+    }
+
+    .hero h2 {
+      font-size: 30px;
+      margin-bottom: 12px;
+    }
+
+    .hero p {
+      font-size: 17px;
+      line-height: 1.6;
+      margin-bottom: 25px;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      max-width: 350px;
+      margin: auto;
+    }
+
+    button {
+      border: none;
+      padding: 16px;
+      border-radius: 8px;
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .ride {
+      background: #111;
+      color: white;
+    }
+
+    .driver {
+      background: #e9ecef;
+      color: #111;
+    }
+
+    .section {
+      padding: 30px 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Oghara Book a Ride</h1>
+    <p>Connecting Oghara with ease</p>
+  </header>
+
+  <section class="hero">
+    <h2>Need a Ride?</h2>
+    <p>
+      Book a trusted local ride in Oghara quickly and conveniently.
+      Safe, simple and designed for our community.
+    </p>
+
+    <div class="buttons">
+      <button class="ride" onclick="bookRide()">Book a Ride</button>
+      <button class="driver" onclick="driverSignup()">Become a Driver</button>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Why Oghara Book a Ride?</h2>
+
+    <div class="card">
+      <h3>🚗 Local Drivers</h3>
+      <p>Connect with drivers serving the Oghara community.</p>
+    </div>
+
+    <div class="card">
+      <h3>🛡️ Driver
